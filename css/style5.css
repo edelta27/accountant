@@ -1,0 +1,143 @@
+body {
+	background: radial-gradient(closest-side at 30% 50%,  #94b8b8,mintcream);
+	color : black;
+    font-family: Arial;
+    
+}
+
+#body{
+    margin:0 auto;
+    min-width:760px;
+    max-width:1024px;  
+}
+
+#header{
+    background-image: url(calculator-385506_1280.jpg);
+    border-top-left-radius: 1% 2%;
+    border-top-right-radius: 1% 2%;
+    border-bottom-left-radius: 1% 2%;
+    border-bottom-right-radius: 1% 2%;
+    box-shadow: 5px 5px 10px;
+    color: black;
+    text-align: center;
+    width: 1024px; 
+    height: 358px;
+}
+
+#header img{
+    float: left;
+    margin: 15px;
+    padding: 3px;
+    box-shadow: 5px 5px 10px;
+    color: black;
+ }
+
+#info{
+    float: right;
+    width: 500px;
+    height: 220px;
+    display: inline-block;
+    background: #b3cccc;
+    box-shadow: 10px 10px 40px;
+    border-top-left-radius: 1% 2%;
+    border-top-right-radius: 1% 2%;
+    border-bottom-left-radius: 1% 2%;
+    border-bottom-right-radius: 1% 2%;
+    margin: 15px;
+    padding: 1px;
+}
+
+#info h2 {
+    float: left;
+    padding: 1px ;
+    width: 400px;  
+    font-family:  Univers, 'Futura', sans-serif;
+}
+
+#info h3{
+    float: right;
+    margin: 15px;
+    padding: 3px;        
+}
+    
+.menu, .menu li {
+	display: inline-block;
+	list-style: none;
+	margin: 1px;
+	padding: 0px;
+    
+}
+
+.menu {
+    border-bottom: 1px solid black ; 
+    width: 1024px;
+	
+}
+
+.menu a:link, .menu a:visited {
+	display: block;
+	width: 130px;
+	text-decoration: none;
+	padding: 15px ;
+	font-weight: bold;
+	background-color: radial-gradient(closest-side at 40% 50%,  #94b8b8,mintcream);
+	color: black;
+	border-left: 10px solid #d1e0e0;
+    border-top-left-radius: 0% 40%;
+    border-top-right-radius: 10% 40%;
+    border-bottom-left-radius: 20% 40%;
+    border-bottom-right-radius: 0% 40%;
+    box-shadow: 5px 5px 10px;
+    color: black;
+}
+
+.menu a:hover {
+	width: 150px;
+	background-color: radial-gradient(closest-side at 40% 50%,  #94b8b8,mintcream);
+    color: gray;
+	border-left: 20px solid #d1e0e0;
+}
+
+h1 {
+    text-align: center;
+}  
+
+p {
+    text-indent: 30px;
+    width: 1000px;
+}
+
+.kontakt, .kontakt li {
+	display: inline-block;
+	list-style: none;
+	margin: 1px;
+    padding: 0px;}
+
+.kontakt {
+    border-bottom: -50px solid black ;
+    margin-top: 50px;
+    float:inherit;
+    display: inline-block;
+    text-decoration: none;
+    font-size: small;
+}
+.kontakt a:link, .kontakt a:visited {
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	padding: 3px ;
+	background-color: none;
+	color: black;
+    font-size: small;
+}
+.kontakt a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;    
+}
